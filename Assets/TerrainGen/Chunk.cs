@@ -13,7 +13,7 @@ public class Chunk : MonoBehaviour
 {
     [SerializeField] private MeshRenderer _meshRenderer;
     [SerializeField]private MeshFilter _meshFilter;
-    public ChunkData chunkData; //wszystkie dane o położeniu itp chunka są w osobnej klasie
+    public ChunkGovernor.ChunkData chunkData; //wszystkie dane o położeniu itp chunka są w osobnej klasie
 
     [SerializeField] public GameObject Treeprefab;
     // Start is called before the first frame update

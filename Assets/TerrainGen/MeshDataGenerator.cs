@@ -39,7 +39,7 @@ public static class MeshDataGenerator
         return task;
     }*/
     
-    public static Vector3[] HeightMap(int chunkSize,int2 position,float heightMultiplayer,int pointOffset,int heightMultipl,Queue<ChunkData> chunksToRender, AnimationCurve animationCurve)
+    public static Vector3[] HeightMap(int chunkSize,int2 position,float heightMultiplayer,int pointOffset,int heightMultipl,Queue<ChunkGovernor.ChunkData> chunksToRender, AnimationCurve animationCurve)
     {
         //EwCamZk+GgABEQACAAAAAADgQBAAAACIQR8AFgABAAAACwADAAAAAgAAAAMAAAAEAAAAAAAAAD8BFAD//wAAAAAAAD8AAAAAPwAAAAA/AAAAAD8BFwAAAIC/AACAPz0KF0BSuB5AEwAAAKBABgAAj8J1PACamZk+AAAAAAAA4XoUPw==
         FastNoise fastNoise = FastNoise.FromEncodedNodeTree("GQAbABMAzcxMPg0ABQAAAPYoPEAHAABcj8I+AJqZmT4Aw/VIQAEZABsAEwAAAIA/BwAAj8J1PgEbAA0AAwAAAAAAAEATALgehUAHAAAAAAA/AAAAAAAACtcjPQ==");
@@ -62,7 +62,7 @@ public static class MeshDataGenerator
         //musi poczekać aż chunksToRender będzie "wolne" i dopiero wtedy modyfikuje QUQUEUEUEUUEUEUE
         lock (chunksToRender) //TUTAJ TAK SAMO inne wątki muszą poczekać aż wykona się ten kod
         {
-            chunksToRender.Enqueue(new ChunkData(position, chunkSize, vertices,pointOffset,heightMultipl,1));
+            chunksToRender.Enqueue(new ChunkGovernor.ChunkData(position, chunkSize, vertices,pointOffset,heightMultipl,1));
         }
         // i to są wsm takie największe zmiany
         return vertices;
