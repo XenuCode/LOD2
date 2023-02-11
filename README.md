@@ -1,8 +1,7 @@
 # Procedural Flight Sim
 
 
-https://user-images.githubusercontent.com/123111159/218225353-adad345c-5fa0-4544-b942-fba6297f4f28.mp4
-
+![output](https://user-images.githubusercontent.com/123111159/218226197-74d5cdb9-a655-478f-bacc-36e009f5c10f.gif)
 
 --- 
 ## How to play
