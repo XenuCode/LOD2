@@ -1,5 +1,8 @@
 # Procedural Flight Sim
 
+
+![output](https://user-images.githubusercontent.com/123111159/218226197-74d5cdb9-a655-478f-bacc-36e009f5c10f.gif)
+
 --- 
 ## How to play
 {insert name} is a procedurally generated flight simulator meant for taking a cup of 
