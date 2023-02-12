@@ -26,8 +26,8 @@ public class Chunk : MonoBehaviour
         transform.position = new Vector3(chunkData.position.x*chunkData.pointOffset* (chunkData.chunkSize-1) - (chunkData.chunkSize - 1)*chunkData.pointOffset,-1000,chunkData.position.y*chunkData.pointOffset* (chunkData.chunkSize-1)-(chunkData.chunkSize - 1)*chunkData.pointOffset);
         var mesh = _meshFilter.mesh;
         mesh.vertices = chunkData.vertecies;
-        mesh.triangles = MeshDataGenerator.GenerateVerticesOrder(chunkData.chunkSize,4);
-        chunkData.lodLvl = 4;
+        mesh.triangles = MeshDataGenerator.GenerateVerticesOrder(chunkData.chunkSize,1);
+        chunkData.lodLvl = 1;
         // Vector3[] normals = new Vector3[chunkData.chunkSize*chunkData.chunkSize];
         // for (int x = 0; x < normals.Length; x++)
         // {

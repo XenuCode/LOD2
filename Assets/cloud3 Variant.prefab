@@ -15,6 +15,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dd3e53d966316072c98a3712c09fc3cd,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 68.666664
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd3e53d966316072c98a3712c09fc3cd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 46.666668
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd3e53d966316072c98a3712c09fc3cd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.333333
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd3e53d966316072c98a3712c09fc3cd,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1462584
       objectReference: {fileID: 0}
@@ -85,6 +100,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 115732694165570435}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dd3e53d966316072c98a3712c09fc3cd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7983569811624609868}
   m_SourcePrefab: {fileID: 100100000, guid: dd3e53d966316072c98a3712c09fc3cd, type: 3}
 --- !u!1 &8615914091488775525 stripped
 GameObject:
@@ -104,7 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0faf07301604a698643a8f40ad62847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  windStrength: 50
+  animation: {fileID: 7983569811624609868}
+  windStrength: 3
   rb: {fileID: 115732694165570435}
 --- !u!54 &115732694165570435
 Rigidbody:
@@ -129,7 +149,23 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!111 &7983569811624609868
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8615914091488775525}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 6cf02b111dfffe30988990f9575dd180, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 6cf02b111dfffe30988990f9575dd180, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

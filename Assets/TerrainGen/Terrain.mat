@@ -111,8 +111,8 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _heightOffset: 19.4
-    - _maxHeight: 100.4
+    - _heightOffset: 42.7
+    - _maxHeight: 708.8
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
