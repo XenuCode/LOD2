@@ -1,7 +1,6 @@
 # Procedural Flight Sim
 
-
-![output](https://user-images.githubusercontent.com/123111159/218226197-74d5cdb9-a655-478f-bacc-36e009f5c10f.gif)
+![output_gifsicle](https://user-images.githubusercontent.com/123111159/218338536-8e3800f7-f691-4634-85f1-57e6e8d8618e.gif)
 
 --- 
 ## How to play
