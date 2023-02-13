@@ -8,6 +8,7 @@ namespace TerrainGen
     public class CloudManager : MonoBehaviour
     {
         [SerializeField] private int cloudAmount=4;
+        [SerializeField] private Transform cam;
         public void Start()
         {
             StartCoroutine(AddClouds());
@@ -20,8 +21,9 @@ namespace TerrainGen
         {
             for(;;)
             {
-                for(int x=0; x<cloudAmount; x++) {
-                    var pos = Camera.main.gameObject.transform.position;
+                for(int x=0; x<cloudAmount; x++)
+                {
+                    var pos = cam.position;
                     Vector2 position = new Vector2(pos.x, pos.z);
                     Vector3 spawnPos = new Vector3(
                         Mathf.Clamp(Random.Range(-spawnSize + pos.x, spawnSize + pos.x), -spawnSize + pos.x,

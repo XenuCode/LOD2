@@ -33,7 +33,7 @@ public class ChunkGovernor : MonoBehaviour
 
         slider.onValueChanged.AddListener((value =>
         {
-            rendDistTxt.text = "render distance: " + value.ToString("N");
+            rendDistTxt.text = "render distance: " + (int)value;
             REND = (int)value;
         }));
         //new Thread(new ThreadStart(() => ChunkScanningThread())).Start();
