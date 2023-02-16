@@ -10,10 +10,21 @@ skies with nice views and dynamically changing lighting conditions.
 ---
 ## Tech
 {insert name} builds it's worth upon ability to create beautiful terrains as well as good looking and sky 
-that feels alive.Because of it it splits into two most important parts
+that feels alive. Because of it it splits into two most important parts
 
 ### Terrain generation
 
+Terrain generation is divided into  parts that work together 
 
+
+
+- Main Unity thread
+  - Schedules chunks to generate on separate threads
+    - Runs coroutines for
+      - Spawning chunks
+      - Spawning clouds and pigeons
+- New threads spawned for
+  - Generating chunk data
+  - Calculating chunks that are to be destroyed
 
 ### Sky environment
