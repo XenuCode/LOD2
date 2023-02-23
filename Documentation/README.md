@@ -14,9 +14,7 @@ that feels alive. Because of it it splits into two most important parts
 
 ### Terrain generation
 
-Terrain generation is divided into  parts that work together 
-
-
+Terrain generation is divided into two parts that work together:
 
 - Main Unity thread
   - Schedules chunks to generate on separate threads
@@ -28,3 +26,10 @@ Terrain generation is divided into  parts that work together
   - Calculating chunks that are to be destroyed
 
 ### Sky environment
+
+
+
+### License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
