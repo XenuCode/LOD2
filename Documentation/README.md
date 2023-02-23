@@ -4,7 +4,8 @@
 
 --- 
 ## How to play
-{insert name} is a procedurally generated flight simulator meant for taking a cup of 
+
+Da Plane is a procedurally generated flight simulator meant for taking a cup of 
 tea and relaxing while playing it. As such you can enjoy a peaceful voyage through the 
 skies with nice views and dynamically changing lighting conditions.
 ---
