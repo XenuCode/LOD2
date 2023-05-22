@@ -5,13 +5,13 @@
 --- 
 ## How to play
 
-Da Plane is a procedurally generated flight simulator meant for taking a cup of
+Procedural Flight Sim is a procedurally generated flight simulator meant for taking a cup of
 tea and relaxing while playing it. As such you can enjoy a peaceful voyage through the
 skies with nice views and dynamically changing lighting conditions.
 ---
 ## Tech
-{insert name} builds it's worth upon ability to create beautiful terrains as well as good looking and sky
-that feels alive. Because of it it splits into two most important parts
+Procedural Flight Sim builds it's worth upon ability to create beautiful terrains as well as good looking and sky
+that feels alive. As souch it consists of those parts:
 
 ### Terrain generation
 
@@ -25,8 +25,6 @@ Terrain generation is divided into two parts that work together:
 - New threads spawned for
   - Generating chunk data
   - Calculating chunks that are to be destroyed
-
-### Sky environment
 
 
 
